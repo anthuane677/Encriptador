@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style2.css">
+    <title>Desencriptar</title>
+</head>
+<body>
+    <h1>Desencriptador </h1>
+    <div class="contenedor">
+        <div>
+            <h3 for="text1">Texto a desencriptar: <br> <input type="text" id="tex1" placeholder="Introduce tu texto aquí">
+            <br>
+            <label for="shift">clave :</label>
+            <input type="number" id="shift" value="3">
+            <br>
+            <button onclick="encrypt()">Desencriptarr</button>    
+        </div>
+        <div>
+            <h3>Texto desencriptado:</h3>
+            <p id="tex2"></p>
+        </div>
+    </div>
+    <div class="elecciones">
+        <div><a href="index.html">Inicio</a></div>
+        <div>  <a href="encriptar.html">Encriptar</a></div>
+    </div>
+    <script src="/js/desencriptador.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255, 226, 132);
+    text-align: center;
+}
+
+ /*Pantalla de interacción*/
+.Inicio h1{
+    font-size: 70px;
+}
+
+.eleccion{
+    display: inline-flex;
+    gap: 100px;
+}
+
+div a{
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(221, 170, 255);
+}
+
+div a:hover{
+    background-color: rgb(255, 119, 0);
+}
